@@ -1,0 +1,49 @@
+{
+  "name": "vcallapp",
+  "version": "0.0.1",
+  "description": "vue callapp 指令",
+  "main": "dist/vcallapp.min.js",
+  "scripts": {
+    "test": "karma start",
+    "build": "uglifyjs ./src/index.js -c -m -o ./dist/vcallapp.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newued/v-callapp.git"
+  },
+  "keywords": [
+    "vue",
+    "vcallapp",
+    "directive"
+  ],
+  "author": "newued",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newued/v-callapp/issues"
+  },
+  "homepage": "https://github.com/newued/v-callapp#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "html-webpack-plugin": "^2.26.0",
+    "isparta": "^4.0.0",
+    "isparta-loader": "^2.0.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-webpack": "^1.8.1",
+    "uglify-js": "^2.6.2",
+    "vue-loader": "^10.0.2",
+    "vue-template-compiler": "^2.1.8",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^3.1.11"
+  },
+  "dependencies": {
+    "vue": "^2.1.4",
+    "iscroll": "^5.2.0"
+  }
+}
